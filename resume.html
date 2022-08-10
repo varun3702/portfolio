@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #footer-row1 {
-            margin-top: 150px;
+            margin-top: 1000px;
             padding: 1.2em 0;
             background: rgb(255, 255, 255);
             bottom: 0;
@@ -29,7 +29,7 @@
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to left, #ffffff 60%, #26262c 40%);
+            background: #26262c;
         }
 
         .top-container {
@@ -60,6 +60,16 @@
 
         .box {
             float: left;
+            height: 28px;
+            width: 28px;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            clear: both;
+        }
+
+        .box2 {
+            margin-top: 100px;
+            margin-left: 660px;
             height: 28px;
             width: 28px;
             margin-bottom: 20px;
@@ -132,7 +142,7 @@
             <p><B>&nbsp;Varun Tiwary</B>
                 <size2>/ DevOps Engineer</size2>
                 <span style="float:right;margin-right: 40px;">
-                    <a style="text-decoration: none;"
+                    <a style="text-decoration: none;color: rgb(60, 105, 255);"
                         href="https://www.linkedin.com/in/varun-tiwary-438845193/">RESUME</a>
                 </span>
                 <span style="float:right;margin-right: 20px;">
@@ -140,8 +150,7 @@
                         href="https://www.linkedin.com/in/varun-tiwary-438845193/">PROJECTS</a>
                 </span>
                 <span style="float:right;margin-right: 20px;">
-                    <a style="text-decoration: none;color: rgb(60, 105, 255);"
-                        href="C:\Users\Varun\Desktop\portfolio\index2.html">ABOUT
+                    <a style="text-decoration: none;" href="C:\Users\Varun\Desktop\portfolio\index2.html">ABOUT
                         ME</a>
                 </span>
             </p>
@@ -149,56 +158,17 @@
     </div>
 
     <div>
+        <div class='box2 blue'></div>
+        <h1 style="text-align:center;color: #ffffff;margin-top: -50px;">Resume</h1>
+
         <form id="about" action="index.html"
-            style="width: 450px; height: 600px; background: rgb(22, 21, 21);margin-left:250px;margin-top:130px;box-shadow: -10px 10px #000000;text-align: center;color: #f1f1f1;font-size:40px;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            style="margin: 0 auto;text-align: center;width: 900px; height: 600px; background: rgb(22, 21, 21);box-shadow: -10px 10px #000000;text-align: center;color: #f1f1f1;font-size:40px;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
             <!-- starting margin for img=450(form margin)/2=225-100(img width/2)=125 -->
-            <p style="margin-bottom:10px"> &nbsp;</p>
-            <img src="cv_pic.jpg" alt="Avatar" class="center" style="border-radius: 50%;margin-bottom:50px">
-            Varun
-            <br>
-            Tiwary
-            <hr style="width:15%;text-align:center;color:blue;background-color:blue;height:2px;">
-            <p style="text-align: center;color: #f1f1f1;font-size:23px;font-family:Lucida Console,Monospace;">
-                DEVOPS ENGINEER</p>
-            <div style="width: 430px; height: 60px; background: rgb(255, 255, 255);margin-top: 60px;margin-left: 10px;">
-                <form id="about" action="index.html">
-                    <a style="text-decoration:none;" href="https://www.linkedin.com/in/varun-tiwary-438845193/">
-                        <img src="linkedin2.jpg" alt="LinkendIn Icone" style="width:28px;">
-                    </a>
-                    <a style="text-decoration:none" href="https://www.freelancer.com.au/u/varuntiwary">
-                        <img src="freelancer_icon2.png" alt="Freelancer Icon" style="width:33px;margin-top: 10px;">
-                    </a>
-                    <a style="text-decoration:none" href="mailto:varuntiwary@outlook.com">
-                        <img src="mail2.jpg" alt="Mail Icon" style="width:30px;">
-                    </a>
-                </form>
-            </div>
+            lol
+           
         </form>
-
-        <div style="margin-top:-640px;margin-left: 720px;width: 500px;">
-            <h1 style="font-size: 100px;">Hello</h1>
-            <h1 style="font-size: 20px;margin-top: -60px;font-family: Arial, Helvetica, sans-serif;"> I am Varun, a
-                computer
-                science graduate from University of Sydney, currently
-                working as a DevOps engineer at Woolworths.</h1>
-            <button class="btn default2">RESUME</button>
-            <button class="btn default">PROJECTS</button>
-            <p>I got into programming because of my interest in automating things. I am proficient in automating things
-                using Python and have a keen interest in working with various cloud technologies, having prior
-                experience in working with GCP, AWS and Azure. </p>
-
-            <p>During my time at Bright as a Software Engineer I also worked with various database tools such as
-                PostgreSQL, Cloud Firestore, Cloud SQL and MongoDB. I have prior experience in working with REST APIs
-                and using automation tools such as Selenium and Chromedriver. </p>
-
-            <p>At my current position I regularly interact with Woolworths’s customers, handling requests and incidents
-                while also managing problem records and change deployments. </p>
-
-            <p>I am always willing to explore new opportunities, in order to broaden my knowledge and gain experience.
-                So, feel free to reach out.</p>
-        </div>
-
     </div>
+
 
     <div id="footer-row1">
         <div id="footer-bg">
@@ -238,7 +208,6 @@
             </div>
         </div>
     </div>
-
 
     <script>
         window.onscroll = function () { myFunction() };
