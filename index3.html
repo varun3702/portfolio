@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #footer-row1 {
-            margin-top: 10%;
+            margin-top: 150px;
             padding: 1.2em 0;
             background: rgb(255, 255, 255);
             bottom: 0;
+            margin-right: -33px;
             font-family: "Fjalla One", Verdana, Geneva, sans-serif;
             font-size: 0.95em;
         }
@@ -18,11 +19,11 @@
         }
 
         b {
-            font-size: 188%;
+            font-size: 30px;
         }
 
         size2 {
-            font-size: 155%;
+            font-size: 25px;
         }
 
         body {
@@ -31,16 +32,30 @@
             background: linear-gradient(to left, #ffffff 60%, #26262c 40%);
         }
 
+        .top-container {
+            background-color: #f1f1f1;
+            padding: 30px;
+            text-align: center;
+        }
+
         .header {
-            padding: 1% 1%;
+            padding: 10px 16px;
             background: rgb(255, 255, 255);
             color: #000000;
+        }
+
+        .content {
+            padding: 16px;
         }
 
         .sticky {
             position: fixed;
             top: 0;
             width: 100%;
+        }
+
+        .sticky+.content {
+            padding-top: 102px;
         }
 
         .box {
@@ -68,18 +83,18 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 45%;
+            width: 200px;
         }
 
         .btn {
-            border: 1% solid black;
+            border: 2px solid black;
             background-color: white;
             color: black;
-            padding: 3% 10%;
-            font-size: 100%;
+            padding: 14px 28px;
+            font-size: 16px;
             cursor: pointer;
             border-radius: 24px;
-            width: 40%;
+            width: 200px;
         }
 
         /* Gray */
@@ -107,6 +122,7 @@
         a:hover {
             color: rgb(60, 105, 255);
         }
+        
     </style>
 </head>
 
@@ -116,14 +132,15 @@
             <div class='box blue'></div>
             <p><B>&nbsp;Varun Tiwary</B>
                 <size2>/ DevOps Engineer</size2>
-                <span style="float:right;margin-right: 4%;">
-                    <a style="text-decoration: none;" href="resume.html">RESUME</a>
+                <span style="float:right;margin-right: 40px;">
+                    <a style="text-decoration: none;"
+                        href="resume.html">RESUME</a>
                 </span>
-                <span style="float:right;margin-right: 1%;">
+                <span style="float:right;margin-right: 20px;">
                     <a style="text-decoration: none;"
                         href="https://www.linkedin.com/in/varun-tiwary-438845193/">PROJECTS</a>
                 </span>
-                <span style="float:right;margin-right: 1%;">
+                <span style="float:right;margin-right: 20px;">
                     <a style="text-decoration: none;color: rgb(60, 105, 255);"
                         href="C:\Users\Varun\Desktop\portfolio\index2.html">ABOUT
                         ME</a>
@@ -134,34 +151,34 @@
 
     <div>
         <form id="about" action="index.html"
-            style="width: 30%; height: 10%; background: rgb(22, 21, 21);margin-left:16%;margin-top:9%;box-shadow: -10px 10px #000000;text-align: center;color: #f1f1f1;font-size:250%;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            style="width: 450px; height: 600px; background: rgb(22, 21, 21);margin-left:250px;margin-top:130px;box-shadow: -10px 10px #000000;text-align: center;color: #f1f1f1;font-size:40px;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
             <!-- starting margin for img=450(form margin)/2=225-100(img width/2)=125 -->
-            <p style="margin-bottom:1%"> &nbsp;</p>
-            <img src="cv_pic.jpg" alt="Avatar" class="center" style="border-radius: 50%;margin-bottom:10%">
+            <p style="margin-bottom:10px"> &nbsp;</p>
+            <img src="cv_pic.jpg" alt="Avatar" class="center" style="border-radius: 50%;margin-bottom:50px">
             Varun
             <br>
             Tiwary
             <hr style="width:15%;text-align:center;color:blue;background-color:blue;height:2px;">
-            <p style="text-align: center;color: #f1f1f1;font-size:60%;font-family:Lucida Console,Monospace;">
+            <p style="text-align: center;color: #f1f1f1;font-size:23px;font-family:Lucida Console,Monospace;">
                 DEVOPS ENGINEER</p>
-            <div style="width: 95%; height: 60px; background: rgb(255, 255, 255);margin-top: 18%;margin-left: 2%;">
+            <div style="width: 430px; height: 60px; background: rgb(255, 255, 255);margin-top: 60px;margin-left: 10px;">
                 <form id="about" action="index.html">
                     <a style="text-decoration:none;" href="https://www.linkedin.com/in/varun-tiwary-438845193/">
-                        <img src="linkedin2.jpg" alt="LinkendIn Icone" style="width:7%;">
+                        <img src="linkedin2.jpg" alt="LinkendIn Icone" style="width:28px;">
                     </a>
                     <a style="text-decoration:none" href="https://www.freelancer.com.au/u/varuntiwary">
-                        <img src="freelancer_icon2.png" alt="Freelancer Icon" style="width:7%;margin-top: 3%;">
+                        <img src="freelancer_icon2.png" alt="Freelancer Icon" style="width:33px;margin-top: 10px;">
                     </a>
                     <a style="text-decoration:none" href="mailto:varuntiwary@outlook.com">
-                        <img src="mail2.jpg" alt="Mail Icon" style="width:7%;">
+                        <img src="mail2.jpg" alt="Mail Icon" style="width:30px;">
                     </a>
                 </form>
             </div>
         </form>
 
-        <div style="margin-top:-43%;margin-left: 47.5%;width: 30%;">
-            <h1 style="font-size: 600%;">Hello</h1>
-            <h1 style="font-size: 130%;margin-top: -13%;font-family: Arial, Helvetica, sans-serif;"> I am Varun, a
+        <div style="margin-top:-640px;margin-left: 720px;width: 500px;">
+            <h1 style="font-size: 100px;">Hello</h1>
+            <h1 style="font-size: 20px;margin-top: -60px;font-family: Arial, Helvetica, sans-serif;"> I am Varun, a
                 computer
                 science graduate from University of Sydney, currently
                 working as a DevOps engineer at Woolworths.</h1>
@@ -187,38 +204,38 @@
     <div id="footer-row1">
         <div id="footer-bg">
             <div id="footer" class="container_24">
-
                 <p style="text-align:left;font-family: Arial, Helvetica, sans-serif;">
 
-                    <span style="float:right;margin-right: 5%;font-weight: bold;">
+                    <span style="float:right;margin-right: 80px;font-weight: bold;">
                         Connect
                     </span>
-                    <span style="float:right;margin-right: 8%;font-weight: bold">
+                    <span style="float:right;margin-right: 125px;font-weight: bold">
                         Write
                     </span>
-                    <span style="float:right;margin-right: 11%;font-weight: bold">
+                    <span style="float:right;margin-right: 163px;font-weight: bold">
                         Call
                     </span>
-                </p>
-                <p style="text-align:left;font-family: Arial, Helvetica, sans-serif;">
-                    &nbsp;&nbsp;&COPY; 2022 by Varun Tiwary
-                </p>
-
-                <p style="text-align:right;font-family: Arial, Helvetica, sans-serif;">
-                    <span style="float:right;margin-right: 5%;font-weight: bold;">
-                        +61 466 908 802
-                        <a style="text-decoration:none;color: #000;margin-right: 5%;margin-left: 4.5%;" href="mailto:varuntiwary@outlook.com">
-                            varuntiwary@outlook.com
-                        </a>
-                        <a style="text-decoration:none;" href="https://www.linkedin.com/in/varun-tiwary-438845193/;">
-                            <img src="linkedin2.jpg" alt="LinkendIn Icone" style="width:2%;">
+                    <br>
+                    <br>
+                    <span style="float:right;margin-right: 80px;">
+                        <a style="text-decoration:none;" href="https://www.linkedin.com/in/varun-tiwary-438845193/">
+                            <img src="linkedin2.jpg" alt="LinkendIn Icone" style="width:18px;margin-right: 5px;">
                         </a>
                         <a style="text-decoration:none" href="https://www.freelancer.com.au/u/varuntiwary">
-                            <img src="freelancer_icon2.png" alt="Freelancer Icon" style="width:2%;">
+                            <img src="freelancer_icon2.png" alt="Freelancer Icon" style="width:20px;">
                         </a>
                     </span>
-                </p>
+                    <span style="float:right;margin-right: 60px;">
 
+                        <a style="text-decoration:none;color: #000;" href="mailto:varuntiwary@outlook.com">
+                            varuntiwary@outlook.com
+                        </a>
+                    </span>
+                    <span style="float:right;margin-right: 60px;">
+                        +61 466 908 802
+                    </span>
+                    &nbsp;&nbsp;&COPY; 2022 by Varun Tiwary
+                </p>
             </div>
         </div>
     </div>
